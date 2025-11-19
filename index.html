@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CI/CD Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AWS CI/CD with S3, CodeBuild & CodePipeline</h1>
+        <p>Automated deployment using Amazon Web Services</p>
+    </header>
+
+    <section class="container">
+        <h2>Welcome to the Demo </h2>
+        <p>This webpage is deployed automatically using:</p>
+        <ul>
+            <li>✔ Amazon S3 (Static Website Hosting)</li>
+            <li>✔ AWS CodeBuild</li>
+            <li>✔ AWS CodePipeline</li>
+            <li>✔ GitHub (Source Repository)</li>
+        </ul>
+
+        <button onclick="changeMessage()">Click to Update Message</button>
+
+        <p id="message" class="msg">Hello! This is the default message.</p>
+    </section>
+
+    <footer>
+        <p>Hosted on AWS & Deployed via CI/CD © 2025</p>
+        <p>Made by HARSHIT SAHU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
